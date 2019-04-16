@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EncapsulationExampleComponent } from './encapsulation-example/encapsulation-example.component';
+import { ShadowDomComponent } from './shadow-dom/shadow-dom.component';
+import { EncapsulationNoneComponent } from './encapsulation-none/encapsulation-none.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EncapsulationExampleComponent,
+    ShadowDomComponent,
+    EncapsulationNoneComponent
   ],
   imports: [
     BrowserModule,
